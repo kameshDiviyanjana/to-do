@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+#rap{
+    width: 100%;
+   height: 100%;
+    background-color: blue;
+    margin: auto;
+}
+
+#log{
+    width: 100%;
+    min-height: 50px;
+    background-color: brown;
+    line-height: 50px;
+
+}
+
+#main{
+
+    width: 100%;
+    min-height: 1100px;
+    background-color: rgb(250, 252, 252);
+   
+}
+#leftdiv{
+
+    width: 20%;
+    min-height: 1100px;
+    background-color: #33074F;
+    
+    float: left;
+    margin-left: 0.5%;
+    box-shadow: 5px 5px 10px #565252;
+    
+}
+#rightdiv{
+    width: 78%;
+    min-height: 1100px;
+    background-color: rgb(249, 249, 249);
+    float: right;
+    margin-right: 0.5%;
+    
+    
+}
+.clearfix::after{
+
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header{
+    margin-top: 1%;
+    width: 100%;
+    height: 80px;
+     background-color: rgb(247, 248, 251);
+     border: solid rgb(247, 248, 251);
+     line-height: 80px;
+     box-shadow: 5px 5px 10px #efe4e4,-3px -3px 5px #efe4e4;
+     white-space: nowrap;
+}
+.bowns{
+    margin: 0;
+}
+#anxer{
+    color: #e34d4d;
+}
+#txthed{
+    color: #615e5e;
+}
+
+#sidetext{
+    color: white;
+    font-size:50px;
+    text-align: center;
+}
+#h3-div{
+
+    
+    height: 90px;
+    width: 100%;
+    background-color: #88838a;
+    align-items: center;
+    line-height: 90px;
+}
+#imahe-dash{
+    height: 70px;
+    width: 85%;
+    margin-top: 5%;
+    background-color: #703386;
+    line-height: 70px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+   
+}
+#h4-image-dash{
+    text-align: center;
+    color: white;
+    font-size:20px;
+   
+    
+}
+
+#bannee{
+    margin-top: 1%;
+    width: 100%;
+    min-height: 120px;
+    background-color: rgb(247, 248, 251);
+    border-radius: 8px;
+    line-height: 30px;
+    box-shadow: 5px 5px 10px #efe4e4,-3px -3px 5px #efe4e4;
+    white-space: nowrap;
+
+}
+.char-heda{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(247, 248, 251);
+    line-height: 50px;
+    margin-bottom: 2%;
+    
+    
+}
+
+.piechar-title{
+   
+    font-size: 26px;
+    color: #2b2929;
+    padding-left: 20px;
+}
+
+#dta-div{
+    margin-top: 1%;
+    width: 100%;
+    min-height: 870px;
+    background-color: rgb(249, 247, 248);
+    flex-direction: column;
+   
+}
+#chiddiv{
+    width: 45%;
+    height: 870px;
+    background-color: rgb(247, 248, 251);
+    float: left;
+    border: solid rgb(247, 248, 251);
+    border-radius: 20px ;
+    margin-left: 3%;
+    box-shadow: 5px 5px 10px #efe4e4,-3px -3px 5px #efe4e4;
+    line-height: 80px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: scroll;
+   
+}
+#inside{
+    width: 45%;
+    height: 870px;
+    background-color: rgb(245, 245, 247);
+    float: right;
+    margin-right: 3%;
+   
+}
+#feedback-par{
+
+    color: #1e1c1c;
+    font-size: 19px;
+}
+#feedback-div{
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(247, 248, 251);
+    line-height: 30px;
+    
+    border: solid rgb(247, 248, 251);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #efe4e4,-3px -3px 5px #efe4e4;
+   
+   
+}
+#horix{
+    color: #a92121; /* Change the line color */
+    background-color: #d2c9c9; /* Change the line color for older browsers */
+    height: 1px; /* Change the line height */
+    border: none; /* Remove any default borders */
+    margin: 10px ;
+}
+#feedback{
+    margin-top: 1%;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(247, 248, 251);
+    border: solid rgb(247, 248, 251);
+    border-radius: 20px ;
+    box-shadow: 5px 5px 10px #efe4e4,-3px -3px 5px #efe4e4;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: scroll;
+}
+#chart{
+    margin-top: 5%;
+    width: 100%;
+    height: 470px;
+    background-color: rgb(247, 248, 251);
+    border: solid rgb(247, 248, 251);
+    border-radius: 20px ;
+    box-shadow: 5px 5px 10px #efe4e4,-3px -3px 5px #efe4e4;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: scroll;
+}
+
+
